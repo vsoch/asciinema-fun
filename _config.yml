@@ -1,0 +1,60 @@
+
+# SEO settings
+title: VanessaSaurus
+description: "dinosaurs, programming, and parsnips"
+keywords: "dinosaurs, programming, parsnips"
+url: https://vsoch.github.io/rawr
+baseurl: null
+
+# Social networking, etc
+repo: http://github.com/vsoch/rawr
+google_analytics: 'UA-67197905-1'
+disqus_shortname: "vsoch"
+
+# asciinema defaults
+asciicast:
+    cols: "115"
+    rows: "25"
+    speed: "2.0"
+    theme: "monokai"
+
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+
+paginate: 4
+paginate_path: "/page/:num/"
+comments: true
+
+destination: _site
+
+# Author settings
+author:
+  name     : VanessaSaurus
+  job      : Software Engineer
+  bio      : "Building tools, containers, and cloudy things, with a penchant for Python and parsnips."
+  thumb    : /images/author.jpg
+  email    : vsochat@gmail.com
+  url      : https://vsoch.github.io
+  github   : http://github.com/vsoch
+  twitter  : http://twitter.com/vsoch
+  facebook : http://facebook.com/vsochat
+  linkedin : https://www.linkedin.com/in/vsochat
+
+# social settings
+og_locale: "pt_BR"
+twitter_card: "summary_large_image"
+twitter_site: "@vsoch"
+
+gems:
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: [".git", "README.md", "LICENSE.md", "_site", "_drafts"]

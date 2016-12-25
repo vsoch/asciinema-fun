@@ -1,0 +1,21 @@
+<!-- asciinema player -->
+<script src="{{ site.base_url }}/assets/js/asciinema-player.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/asciinema-player.css" />
+
+<!-- Show or hide players on button clicks-->
+<script>
+$( document ).ready(function() {
+    $(".asciinema-button").click(function(){
+        var asciinemaVideo = "#asciinema-" + $(this).attr('id');
+
+        if ($(asciinemaVideo).hasClass('hidden')){
+            $(asciinemaVideo).removeClass('hidden');
+            $(this).text('Hide Tutorial')
+        } else {
+            $(asciinemaVideo).addClass('hidden');
+            $(this).text('Show Tutorial')
+        }
+        
+    });
+});
+</script>
