@@ -4,7 +4,7 @@ title: VanessaSaurus
 description: "dinosaurs, programming, and parsnips"
 keywords: "dinosaurs, programming, parsnips"
 url: https://vsoch.github.io/rawr
-baseurl: null
+baseurl: https://vsoch.github.io
 
 # Social networking, etc
 repo: http://github.com/vsoch/rawr
