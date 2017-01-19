@@ -9,7 +9,7 @@ keywords: ""
 
 There is a (sort of) old technology called <a href="https://en.wikipedia.org/wiki/Telnet" target="_blank">telnet</a> which is basically a simple messaging protocol that works through sockets. It's not ideal in that the information sent isn't secure, but for a little fun application running on a server that doesn't matter, well, it's quite fantastic. Here is a little fun that I had around 3:00am putting together a few logical pieces to make a Pokemon "Gotta Catch Em' All" command line thing:<br>
 
-{% include asciicast.html source='pokemon-server.json' title='Gotta Catch Em' All!' author='vsochat@stanford.edu' %}
+{% include asciicast.html source='pokemon-server.json' title='Gotta Catch Em All!' author='vsochat@stanford.edu' %}
 
 <br>
 <h2>The Dependencies</h2>
