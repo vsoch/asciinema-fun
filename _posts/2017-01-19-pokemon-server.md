@@ -45,7 +45,7 @@ exec python server.py &
 Note that I was careful to identify the running shell, and also added `exec` to make sure that the process is carried forward. I got some weird error when I didn't do that. So the last command in my setup file looks like this to start the process (and the server):
 
 ```bash
-$HOME/pokemon-server &
+supervise $HOME/pokemon-server &
 ```
 
 Basically, this script runs a file called `server.py` using Python, and that is where the magic happens.
