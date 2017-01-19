@@ -7,11 +7,12 @@ comments: true
 keywords: ""
 ---
 
-There is a (sort of) old technology called <a href="https://en.wikipedia.org/wiki/Telnet" target="_blank">telnet</a> which is basically a simple messaging protocol that works through sockets. It's not ideal in that the information sent isn't secure, but for a little fun application running on a server that doesn't matter, well, it's quite fantastic. Here is a little fun that I had around 3:00am putting together a few logical pieces to make a Pokemon "Gotta Catch Em' All" command line thing:
+There is a (sort of) old technology called <a href="https://en.wikipedia.org/wiki/Telnet" target="_blank">telnet</a> which is basically a simple messaging protocol that works through sockets. It's not ideal in that the information sent isn't secure, but for a little fun application running on a server that doesn't matter, well, it's quite fantastic. Here is a little fun that I had around 3:00am putting together a few logical pieces to make a Pokemon "Gotta Catch Em' All" command line thing:<br>
 
 {% include asciicast.html source='pokemon-server.json' title='Gotta Catch Em' All!' author='vsochat@stanford.edu' %}
 
-## The Dependencies
+<br>
+<h2>The Dependencies</h2>
 If you are interested in the retarded code I used to make this, <a href="https://github.com/vsoch/pokemon-server" target="_blank">look here.</a> The first I did is install a few dependencies, including a tool `supervisor` that would keep a process running, my <a href="https://github.com/vsoch/pokemon-ascii" target="_blank">pokemon ascii</a> python module, and an `nginx` web server to basically serve a useless `index.html` giving some wandering user the correct command to use `telnet`.
 
 ```bash
@@ -49,7 +50,8 @@ $HOME/pokemon-server &
 
 Basically, this script runs a file called `server.py` using Python, and that is where the magic happens.
 
-## The Server
+
+<h2>The Server</h2>
 The basic idea here is that we are going to open up a multi-threaded socket, using Python, and send a bunch of Pokemon back to the user. So the imports look like this.
 
 ```python
