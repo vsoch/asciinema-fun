@@ -11,7 +11,7 @@ I met a data scientist named <a href="http://blog.jom.link/about/" target="_blan
 
 If you just want to see the demo of what the container produces, <a href="http://www.vanessasaur.us/explore_drug_database/demo/" target="_blank">look no further.</a> If you want an interactive-ish demo of running the container and looking at files, check out the asciinema below. What I really want to talk about in this post is the thinking process for building a container environment for something that you don't understand. It can seem scary to be handed a code base without knowing all the details, but I assure you that there are logical steps one can answer to go from folder to container in no time. If you are interested in this thinking process, continue reading.
 
-{% include asciicast-custom.html rows='35' cols='80' source='explore-drug-database-1-29-2017.json' title='R Analysis in a Container' author='vsochat@stanford.edu' %}
+{% include asciicast-custom.html rows='25' cols='100' source='explore-drug-database-1-29-2017.json' title='R Analysis in a Container' author='vsochat@stanford.edu' %}
 
 <br>
 <h2>The Core Goals</h2>
