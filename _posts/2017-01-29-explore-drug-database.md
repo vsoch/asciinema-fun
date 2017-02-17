@@ -13,6 +13,7 @@ If you just want to see the demo of what the container produces, <a href="http:/
 
 {% include asciicast-custom.html rows='25' cols='100' source='explore-drug-database-1-29-2017.json' title='R Analysis in a Container' author='vsochat@stanford.edu' %}
 
+
 <br>
 <h2>The Core Goals</h2>
 Not surprisingly, the job description for many data scientists looks something like this.
