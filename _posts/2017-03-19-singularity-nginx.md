@@ -251,7 +251,7 @@ cd singularity-nginx
 docker build -t vanessa/singularity-nginx .
 ```
 
-<h4>Deployment</h4>
+<h4>Storage</h4>
 I was originally going to make an endpoint to <a href="https://singularity-hub.org" target="_blank">Singularity Hub</a> to pull and use any container available, but that immense freedom made me a little uneasy, so I scoped the intended use case of this first version to be more controlled. This means that the user can pull (or build/transfer) the containers he or she wants to provide to the `data` folder at the application base. This can be done from inside or outside of the container, as long as the file gets there. The folder is mapped to the host, so anything on the host will be available in the container. For example.
           
 ```bash
